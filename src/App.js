@@ -8,6 +8,7 @@ import { ShopContextProvider } from "./context/shop-context";
 function App() {
   return (
     <div className="App">
+      <Shop />
       <ShopContextProvider>
         <Router>
           <Navbar />
